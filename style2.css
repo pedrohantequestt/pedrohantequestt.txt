@@ -68,3 +68,12 @@ p{
     font-size: 18px;
     text-align: center;
 }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30%;
+    margin-bottom: 5%;
+}
