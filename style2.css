@@ -2,7 +2,8 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-    text-decoration: none
+    text-decoration: none;
+    font-family:Playfair Display, serif;
 }
 
 body{
@@ -17,7 +18,7 @@ h2{
     align-items:center;
     margin-top: 10px;
     letter-spacing: 1px;
-    font-weight: 900;
+    font-weight: 600;
     font-size:24px;
     font-family:Playfair Display, serif;
 }
@@ -26,7 +27,7 @@ a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 5px;
+    margin-top: 20px;
     letter-spacing: 1px;
     font-weight: 600;
     font-size: 20px;
@@ -38,9 +39,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;
-    margin-top: 30px;
-    margin-bottom: 20px;
+    margin:clamp (10px 4% 40px);
 }
   img{
     border-radius: 30px;
